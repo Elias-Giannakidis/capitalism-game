@@ -1,0 +1,91 @@
+{
+  "skip_turns": 2,
+  "window_size": [1200, 1000],
+  "board_limits": [2, 1050, 2, 850],
+  "colors": [
+    [0, 80, 239],
+    [0, 138, 0],
+    [170, 0, 255],
+    [162, 0, 37],
+    [130, 90, 44],
+    [250, 104, 0]
+  ],
+  "capitalism": {
+      "players": [
+        "capitalism_1",
+        "capitalism_2",
+        "capitalism_3",
+        "capitalism_4",
+        "capitalism_5"
+      ],
+      "min_tax": 25,
+      "tax": 5,
+      "budget": 1000
+      },
+  "materials": [
+    {
+      "path": "stone",
+      "customer": {
+        "possibility_buy": 30,
+        "possibility_appear": 10,
+        "possibility_leave": 10,
+        "budget": [100,1000],
+        "max_price": [20,200]
+      },
+      "worker": {
+        "possibility_appear": 20,
+        "no_work_possibility_leave": 40,
+        "work_possibility_leave": 5,
+        "salary": [1, 7]
+      }
+    },
+    {
+      "path": "wood",
+      "customer": {
+        "possibility_buy": 30,
+        "possibility_appear": 10,
+        "possibility_leave": 10,
+        "budget": [100,1000],
+        "max_price": [20,200]
+      },
+      "worker": {
+        "possibility_appear": 20,
+        "no_work_possibility_leave": 40,
+        "work_possibility_leave": 5,
+        "salary": [1, 7]
+      }
+    },
+    {
+      "path": "gold",
+      "customer": {
+        "possibility_buy": 30,
+        "possibility_appear": 10,
+        "possibility_leave": 10,
+        "budget": [100,1000],
+        "max_price": [20,200]
+      },
+      "worker": {
+        "possibility_appear": 20,
+        "no_work_possibility_leave": 40,
+        "work_possibility_leave": 5,
+        "salary": [1,7]
+      }
+    },
+      {
+      "path": "sheep",
+      "customer": {
+        "possibility_buy": 30,
+        "possibility_appear": 10,
+        "possibility_leave": 10,
+        "budget": [100,1000],
+        "max_price": [20,200]
+      },
+      "worker": {
+        "possibility_appear": 20,
+        "no_work_possibility_leave": 40,
+        "work_possibility_leave": 5,
+        "salary": [1, 7]
+      }
+    }
+    ]
+}
