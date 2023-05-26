@@ -282,7 +282,7 @@ class Customer(Card):
 
     def left(self):
         coin = random.randint(0, 100)
-        return self.possibility_leave <= coin or self.wallet.value <= 0
+        return coin <= self.possibility_leave or self.wallet.value <= 0
 
     def buy(self):
         coin = random.randint(0, 100)

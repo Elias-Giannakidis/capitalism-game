@@ -1,5 +1,5 @@
 {
-  "skip_turns": 2,
+  "skip_turns": 3,
   "window_size": [1200, 1000],
   "board_limits": [2, 1050, 2, 850],
   "colors": [
